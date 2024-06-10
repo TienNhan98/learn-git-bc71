@@ -1,14 +1,24 @@
 
-
 repository local ( trong máy của user)
 
 repository remote ( trên github)
 
-tạo repository local : git init ( mỗi dự án sẽ làm 1 lần)
+* tạo repository local : git init ( mỗi dự án sẽ làm 1 lần)
 
-push: đưa source từ máy ( local) lên github (remote)
+* liên kết repo local và repo remote: https://github.com/TienNhan98/learn-git-bc71.git
+
+
+git init : khởi tạo repo local
+
+git remote add origin url: kết nối đường dẫn url từ local lên remote ( git hub )
+
+git remote show origin: hiển thị đường dẫn đang được kết nối
+
+* push: đưa source từ máy ( local) lên github (remote)
 
     push: 3 bước ( chọn, xác nhận, và gửi)
     b1: git add -A
-    b2: git commit -m " nội dung của miêu tả "
-    b3: git push -u origin master ( lần đầu) / git push ( lần thứ 2 trở đi)
+    b2: git commit -m " nội dung của miêu tả ~ description "
+    b3: -  git push -u origin master ((Đẩy lần đầu)~ master là tên nhánh, có máy sẽ là main )
+    - git push ( lần thứ 2 trở đi, sau khi trên github đã có nhánh master/main)
+git log : hiển thị lịch sữ commit 
