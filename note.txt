@@ -26,3 +26,5 @@ git log : hiển thị lịch sữ commit
 
 git checkout -b branch : tạo nhánh mới ( branch là tên nhánh / nhớ commit)
 git checkout branch : chuyển nhánh ( nhớ commit)
+
+git merge branch : ( branch là tên nhánh )- kéo code của source khác về - source chính. Đứng ở source chính kéo về.
