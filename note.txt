@@ -21,5 +21,4 @@ git remote show origin: hiển thị đường dẫn đang được kết nối
     b2: git commit -m " nội dung của miêu tả ~ description "
     b3: -  git push -u origin master ((Đẩy lần đầu)~ master là tên nhánh, có máy sẽ là main )
     - git push ( lần thứ 2 trở đi, sau khi trên github đã có nhánh master/main)
-git log : hiển thị lịch sữ commit 
-sữa
+git log : hiển thị lịch sữ commit
